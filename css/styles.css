@@ -1,0 +1,165 @@
+.topContainer{
+    background-color: #264e5a;
+    position: relative;
+    padding-top: 100px;
+    vertical-align: middle;
+}
+
+.middleContainer{
+
+}
+
+.bottomContainer{
+    background-color: #264e5a;
+    position: relative;
+    padding-bottom: 10px;
+    vertical-align: middle;
+    padding-top: 10px;
+}
+
+body{
+    margin: 0; 
+    text-align: center;
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+}
+
+h1{
+    margin: 50px, auto, 0, auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+    color: #66BFBF;
+}
+
+.comfy{
+    margin: auto
+}
+
+h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h3{
+    font-family: 'Ubuntu', sans-serif;
+    color: #11999E
+}
+
+.bottomCloud{
+    position: absolute;
+    width: 10%;
+    left: 400px;
+    bottom: 455px;
+}
+
+.topCloud{
+    position: absolute;
+    width: 10%;
+    right: 300px;
+    top: 400px;
+    
+}
+
+.footer{
+    color: #11999E;
+}
+
+.footerLink{
+    color: #ffffff;
+}
+
+a{
+    color: #11999E
+}
+
+.profile{
+    width: 50%;
+    margin: 50px auto 50px auto;
+}
+
+.skillRow{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+
+}
+
+.copyright{
+    color: #66BFBF;
+}
+
+hr{
+    border-color: #264e5a;
+    border-style: none;
+    border-width: 5px;
+    border-top-style: dotted;
+    width: 2.5%;
+}
+
+/*>>>>SKILLS START<<<< */
+
+.profileImage{
+    width: 200px;
+    height: auto;
+    }
+
+.videoCall{
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+}
+
+.secretary{
+    width: 200px;
+    float: right;
+    margin-left: 20px;
+}
+
+.smartPhone{
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+}
+
+.binaryCode{
+    width: 200px;
+    float: right;
+    margin-left: 20px;
+}
+
+.taRight{
+    text-align: right;
+}
+
+
+.timeManagement{
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+}
+
+
+/*>>>>SKILLS END<<<< */
+
+.btn {
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #264e5a;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #36798c;
+    text-decoration: none;
+  }
+
+  .contactMe{
+      padding-bottom: 50px;
+  }
