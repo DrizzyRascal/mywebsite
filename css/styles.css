@@ -1,165 +1,262 @@
-.topContainer{
-    background-color: #264e5a;
-    position: relative;
-    padding-top: 100px;
-    vertical-align: middle;
-}
+/* HTML ELEMENTS */
 
-.middleContainer{
-
-}
-
-.bottomContainer{
-    background-color: #264e5a;
-    position: relative;
-    padding-bottom: 10px;
-    vertical-align: middle;
-    padding-top: 10px;
-}
-
-body{
-    margin: 0; 
-    text-align: center;
-    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
-}
-
-h1{
-    margin: 50px, auto, 0, auto;
-    font-family: 'Sacramento', cursive;
-    font-size: 5rem;
-    color: #66BFBF;
-}
-
-.comfy{
-    margin: auto
-}
-
-h2{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 1.5rem;
-    color: #66BFBF;
-    font-weight: normal;
-}
-
-h3{
-    font-family: 'Ubuntu', sans-serif;
-    color: #11999E
-}
-
-.bottomCloud{
-    position: absolute;
-    width: 10%;
-    left: 400px;
-    bottom: 455px;
-}
-
-.topCloud{
-    position: absolute;
-    width: 10%;
-    right: 300px;
-    top: 400px;
-    
-}
-
-.footer{
-    color: #11999E;
-}
-
-.footerLink{
-    color: #ffffff;
-}
-
-a{
-    color: #11999E
-}
-
-.profile{
-    width: 50%;
-    margin: 50px auto 50px auto;
-}
-
-.skillRow{
-    width: 50%;
-    margin: 100px auto 100px auto;
-    text-align: left;
-    line-height: 2;
-
-}
-
-.copyright{
-    color: #66BFBF;
-}
-
-hr{
-    border-color: #264e5a;
-    border-style: none;
-    border-width: 5px;
-    border-top-style: dotted;
-    width: 2.5%;
-}
-
-/*>>>>SKILLS START<<<< */
-
-.profileImage{
-    width: 200px;
-    height: auto;
-    }
-
-.videoCall{
-    width: 200px;
-    float: left;
-    margin-right: 20px;
-}
-
-.secretary{
-    width: 200px;
-    float: right;
-    margin-left: 20px;
-}
-
-.smartPhone{
-    width: 200px;
-    float: left;
-    margin-right: 20px;
-}
-
-.binaryCode{
-    width: 200px;
-    float: right;
-    margin-left: 20px;
-}
-
-.taRight{
-    text-align: right;
+body {
+  font-family: "Montserrat", sans-serif;
 }
 
 
-.timeManagement{
-    width: 200px;
-    float: left;
-    margin-right: 20px;
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+
+p {
+  color: #8f8f8f;
 }
 
 
-/*>>>>SKILLS END<<<< */
+.dropdown-item:hover {
+  background-color: #000;
+  color: #fff;
+}
 
-.btn {
-    -webkit-border-radius: 60;
-    -moz-border-radius: 60;
-    border-radius: 60px;
-    font-family: Arial;
-    color: #ffffff;
-    font-size: 20px;
-    background: #264e5a;
-    padding: 10px 10px 10px 10px;
-    text-decoration: none;
-  }
-  
-  .btn:hover {
-    background: #36798c;
-    text-decoration: none;
-  }
+/* NAVIGATION BAR */
 
-  .contactMe{
-      padding-bottom: 50px;
-  }
+.navbar {
+  padding: 0 0 2.5rem 0;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar-brand:hover {
+  color: #000;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+.title-color-01:hover {
+  color: #000;
+}
+
+/* DOWNLOAD BUTTONS */
+
+.download-btn {
+  margin: 5% 3% 5% 3%;
+}
+
+.centre-text {
+  text-align: center;
+}
+
+/* TITLE SECTION */
+
+#title {
+  background-color: #5cc56a;
+  color: #fff;
+}
+
+.title-image {
+  width: 35rem;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+}
+
+@media (max-width: 1380px){
+.title-image{
+  position: static;
+  transform: rotate(0);
+  width: 100%;
+}
+
+#title{
+  text-align: center;
+}
+
+}
+
+/* FEATURES SECTION */
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/* FONT AWESOME */
+
+.fa-solid {
+  color: #5cc56a;
+  margin-bottom: 1rem;
+}
+
+.fa-solid:hover {
+  color: #4fdb66;
+}
+
+.logo-title {
+  color: #fff;
+  margin-right: 10px;
+}
+
+.logo-title:hover {
+  color: #000;
+}
+
+.logo-color {
+  color: #4fdb66;
+}
+
+/* TESTIMONIALS SECTION */
+
+#testimonials {
+  color: #fff;
+  text-align: center;
+
+  background-color: #4fdb66;
+
+  z-index: 1;
+  position: relative;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* PRESS SECTION */
+
+#press {
+  background-color: #4fdb66;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+
+  margin: 20px 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* PRICING SECTION */
+
+#pricing {
+  padding: 0% 4% 2.5%;
+  text-align: center;
+}
+
+.pricing-header {
+  margin: 4%;
+}
+
+.card-header {
+  background-color: #4fdb66;
+  color: #fff;
+}
+
+.bg-primary {
+  background-color: #4fdb66 !important;
+}
+
+.border-primary {
+  border-color: #4fdb66 !important;
+}
+
+.btn-primary {
+  background-color: #4fdb66;
+  border-color: #4fdb66;
+}
+
+.btn-outline-primary {
+  color: #4fdb66;
+  border-color: #4fdb66;
+}
+
+.btn-outline-primary:hover {
+  color: #fff;
+  border-color: #000;
+  background-color: #000;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  border-color: #000;
+  background-color: #000;
+}
+
+/* CALL TO ACTION SECTION */
+
+#cta {
+  padding: 2.5% 2.5% 0%;
+  margin: 0%;
+  text-align: center;
+  background-color: #4fdb66;
+}
+
+.btn-light:hover{
+background-color: #000;
+color: #fff;
+}
+
+.btn-dark:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+.btn-dark{
+  background-color: #000;
+}
+
+.download-footer{
+  padding: 0%;
+}
+
+.footer-btn{
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+/* FOOTER SECTION */
+
+#footer {
+  text-align: center;
+  background-color: #000;
+  margin: 0%;
+  padding: 2% 30% 2.5% ;
+  color: #4fdb66;
+}
+
+.footer-row{
+  color: #4fdb66;
+}
